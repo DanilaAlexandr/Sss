@@ -10,6 +10,7 @@ height:60px;
 width:1152;
 margin:0 auto;
 display:grid;
+ position: relative;
 grid-template-columns:270px auto;
 
 }
@@ -37,6 +38,138 @@ font-size: 18px;
 color: #000000;
 word-spacing:1px;
 }
+
+section#home{
+
+}
+#per{
+position: absolute;
+width: 1127px;
+height: 200px;
+left: 140px;
+top: 60px;
+font-weight: bold;
+font-size: 164px;
+line-height: 200px;
+letter-spacing: 0.1em;
+color: #FFCA0F;
+}
+#vto{
+position: absolute;
+width: 510px;
+height: 50px;
+left: 360px;
+top: 340px;
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 50px;
+letter-spacing: 0.36em;
+color: #FFC700;
+
+}
+#sign-up-button{
+	position: absolute;
+width: 173px;
+height: 64px;
+left: 520px;
+top: 450px;
+font-size: 24px;
+border-radius: 5px;
+border: 2px solid #FFFFFF;
+background-color: transparent;
+color:#FFC700; 
+text-transform: uppercase;
+font-weight: bold;
+}
+section#collection{
+height:700px;
+width:1152px;
+	
+}
+
+#img-man{
+position: absolute;
+left: 217px;
+top: 710px;
+}
+#img-women{
+position:absolute;
+right: 217px;
+top: 780px;
+}
+
+#mancollection{
+position: absolute;
+width: 126px;
+height: 66px;
+left: 70px;
+top: 1100px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-decoration:none;
+font-size: 56px;
+line-height: 66px;
+color: #000000;
+transform: rotate(-90deg);
+z-index:2;
+}
+
+#womencollection{
+	position: absolute;
+width: 215px;
+height: 66px;
+right: 135px;
+top: 815px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-decoration:none;
+font-size: 56px;
+line-height: 66px;
+color: #000000;
+transform: rotate(-90deg);
+z-index:1;
+	
+}
+
+#years{
+	position: absolute;
+width: 450px;
+height: 234px;
+left: 484px;
+top: 500px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 185px;
+line-height: 234px;
+color: #000000;
+
+}
+#newnewnew{
+position: absolute;
+width: 393px;
+height: 594px;
+left: 459px;
+top: 840px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 50px;
+color: rgba(180, 180, 180, 0.46);
+z-index:100;
+	
+}
+
+
+
+
+
+
+
 
 
 section{
