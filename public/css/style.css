@@ -1,0 +1,367 @@
+body{
+margin:0;
+font-family:Montserrat;
+}
+
+
+header{
+border: 0px solid red;
+height:60px;
+width:1152;
+margin:0 auto;
+display:grid;
+ position: relative;
+grid-template-columns:270px auto;
+
+}
+header a{
+align-self: center;
+  justify-self: center;
+}
+
+}
+header nav{
+border: 1px solid red;
+
+}
+header nav ul{
+list-style:none;
+padding:0;
+display:grid;
+grid-template-columns:repeat(8,1fr);
+}
+
+header nav ul li a{
+text-align:center;
+text-decoration:none;
+font-size: 18px;
+color: #000000;
+word-spacing:1px;
+}
+
+section#home{
+
+}
+#per{
+position: absolute;
+width: 1127px;
+height: 200px;
+left: 140px;
+top: 60px;
+font-weight: bold;
+font-size: 164px;
+line-height: 200px;
+letter-spacing: 0.1em;
+color: #FFCA0F;
+}
+#vto{
+position: absolute;
+width: 510px;
+height: 50px;
+left: 360px;
+top: 340px;
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 50px;
+letter-spacing: 0.36em;
+color: #FFC700;
+
+}
+#sign-up-button{
+	position: absolute;
+width: 173px;
+height: 64px;
+left: 520px;
+top: 450px;
+font-size: 24px;
+border-radius: 5px;
+border: 2px solid #FFFFFF;
+background-color: transparent;
+color:#FFC700; 
+text-transform: uppercase;
+font-weight: bold;
+}
+section#collection{
+height:700px;
+width:1152px;
+	
+}
+
+#img-man{
+position: absolute;
+left: 217px;
+top: 710px;
+}
+#img-women{
+position:absolute;
+right: 217px;
+top: 780px;
+}
+
+#mancollection{
+position: absolute;
+width: 126px;
+height: 66px;
+left: 70px;
+top: 1100px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-decoration:none;
+font-size: 56px;
+line-height: 66px;
+color: #000000;
+transform: rotate(-90deg);
+
+}
+
+#womencollection{
+	position: absolute;
+width: 215px;
+height: 66px;
+right: 135px;
+top: 815px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-decoration:none;
+font-size: 56px;
+line-height: 66px;
+color: #000000;
+transform: rotate(-90deg);
+
+
+}
+
+#years{
+	position: absolute;
+width: 450px;
+height: 234px;
+left: 484px;
+top: 500px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 185px;
+line-height: 234px;
+color: #000000;
+
+}
+#newnewnew{
+position: absolute;
+width: 393px;
+height: 594px;
+left: 459px;
+top: 840px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 50px;
+color: rgba(180, 180, 180, 0.46);
+z-index: -1;
+	
+}
+
+section#inst{
+	height:400px;
+	width:1152px;
+}
+#instaEASYLIFE{
+	position: relative;
+width: 293px;
+height: 48px;
+left:403px;
+top: 0;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 48px;
+color: #000000;	
+}
+section#inst a{
+	margin-left:8px;
+}
+section#ourbrand{
+	height:600px;
+	width:1152;
+}
+#img-our-brand{
+	position:relative;
+left:50px;
+top:30px;
+}
+#header-our-brand{
+	position: absolute;
+width: 368px;
+height: 97px;
+left: 550px;
+top: 1705px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 83px;
+line-height: 97px;
+color: #000000;
+white-space:pre;
+}
+#text-our-brand{
+	position: absolute;
+width: 456px;
+height: 165px;
+left: 620px;
+top: 1850px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 126.19%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+#fashion-our-brand{
+	position: absolute;
+width: 474px;
+height: 462px;
+text-transform: uppercase;
+left: 374px;
+top: 2020px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 66px;
+color: rgba(180, 180, 180, 0.46);
+z-index:-1;
+}
+#watch-our-brand{
+	position: absolute;
+width: 110px;
+height: 23px;
+left: 970px;
+top: 2155px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+#facebook-our-brand{
+	position: absolute;
+width: 24px;
+height: 22px;
+left: 938px;
+top: 2229px;
+border-radius: 4px;
+}
+#instagram-our-brand{
+position: absolute;
+width: 22px;
+height: 22px;
+left: 938px;
+top: 2258px;
+border-radius: 4px;
+}
+#video-our-brand{
+position: absolute;
+width: 216px;
+height: 100px;
+left: 970px;
+top: 2200px;
+}
+section#get{
+	width:1152px;
+	height:650px;
+}
+
+#header-touch{
+	position: absolute;
+width: 1105px;
+height: 158px;
+left: 70px;
+top: 2270px;
+font-family: Montserrat;
+font-style: normal;
+white-space:pre;
+font-weight: 300;
+font-size: 135px;
+line-height: 103.19%;
+font-weight:390;
+color: #FFCA0F;
+}
+#img-touch{
+	position: absolute;
+width: 1400px;
+height: 656px;
+left: -70px;
+top: 2448px;
+z-index:-1;
+}
+#tabl-email{
+	text-align:center;
+	position:absolute;
+	 width:420px;
+	left:427px;
+	top:2780px;
+}
+
+#create{
+	font-size: 42px;
+}
+#step{
+	font-size: 20
+}
+section{
+border: 0px solid red;
+height:550px;
+width:1152;
+margin:0 auto;
+
+}/*тут секцииo*/
+
+footer{
+
+text-decoration:none;
+border: 1px solid red;
+height:100px;
+width:1152;
+margin:0 auto;
+display:grid;
+ position: relative;
+grid-template-columns:270px auto;
+
+}
+
+#logo-footer{
+	position:relative;
+	top:10px;
+	left:15px;
+	
+}
+
+footer nav ul {
+	list-style:none;
+padding:0;
+display:grid;
+grid-template-columns:repeat(8,1fr);
+text-decoration:none;
+
+}
+footer nav ul li a{
+position:relative;
+text-align:center;
+text-decoration:none;
+font-size: 25px;
+color: white;
+top:18px;
+word-spacing:1px;
+}
+
+
+
+
+
