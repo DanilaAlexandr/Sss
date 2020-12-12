@@ -1,20 +1,10 @@
 body{
-
-}
-
-
-header{
-	position: absolute;
-	display: grid;
-	
-	width: 1152px;
-	height: 100px;
-	margin: 0 auto;
-
+    margin: 0;
+    font-family: Montserrat;
 }
 header{
 	position: relative;
-    height: 100px;
+    height: 150px;
     width: 1152px;
     margin: 0 auto;
     display: grid;
@@ -45,271 +35,198 @@ header nav ul li a{
 	color: #000000;
 	text-decoration: none;
 }
+
 #logo{
-	position: relative;
+position: relative;
 	top: 30px;
 	left: 60px;
-}
-section#home{
-	position: relative;
 
 }
-#per{
-	position: absolute;
-	width: 1127px;
-	height: 200px;
-	left: 60px;
-	top: 50px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 164px;
-	line-height: 200px;
-	letter-spacing: 0.1em;
-	color: #FFCA0F;
-}
-#vto{
-	position: absolute;
-	width: 539px;
-	height: 50px;
-	left: 264px;
-	top: 320px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 41px;
-	line-height: 50px;
-	letter-spacing: 0.36em;
-	color: #FFC700;
-}
-#sign-up-button{
-	position: absolute;
-	width: 173px;
-	height: 64px;
-	left: 430px;
-	top: 410px;
-	border: 2px solid #FFFFFF;
-	box-sizing: border-box;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 29px;
-	letter-spacing: 0.1em;
-	color: #FFCA0F;
-	background: none;
-}
-section#collection{
+section#help{
 	position: relative;
-	height: 800px;
-
+	width: 1152px;
+	height: 150px;
 }
-#img-man{
+#helps{
 	position: absolute;
-	width: 422px;
-	height: 554px;	
-	left: 100px;
-	top: 64px;
-	z-index: 1;
-
+	left: 450px;
+	top: 0px;
 }
-#img-women{
-position: absolute;
-width: 422px;
-height: 554px;
-right:  100px;
-z-index: 1;
-top: 105px;
-}
-#mancollection{
+section#help h1{
 	position: absolute;
-width: 126px;
-height: 66px;
-left: -50px;
-top: 493px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 66px;
-color: #000000;
-transform: rotate(-90deg);
-list-style: none;
-text-decoration: none;
-}
-#womencollection{
-		position: absolute;
-	width: 215px;
-	height: 66px;
-	list-style: none;
-	text-decoration: none;
-	right: 10px;
-	top: 150px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 56px;
-	line-height: 66px;
-	color: #000000;
-	transform: rotate(-90deg);
-}
-#years{
-		position: absolute;
-	width: 450px;
-	height: 234px;
-	left: 360px;
-	top: -170px;
-	z-index: 2;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 200px;
-	line-height: 234px;
-	color: #000000;
-}
-#newnewnew{	
-	position: absolute;
-	width: 393px;
-	height: 594px;
-	left: 320px;
-	top: 150px;
-	z-index: -1;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	word-spacing: 10px;
-	font-size: 56px;
-	line-height: 66px;
-	color: rgba(180, 180, 180, 0.46);
-}
-section#inst{
-	position: relative;
-	height: 400px;
-}
-#instaEASYLIFE{
-	position: absolute;
-	width: 293px;
-	height: 48px;
-	left: 403px;
-	top: 10px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 51px;
-	line-height: 48px;
-	color: #000000;
-}
-section#inst table{
-	position: absolute;
-	top: 120px;
 	left: 25px;
+	top: -50px;
+	white-space: pre;
+	font-size: 40px;
 }
-section#ourbrand{
+#helps form{
 	position: relative;
-	height: 800px;
-}
-#img-our-brand{
-	position: absolute;
-	width: 592px;
-	height: 610px;
-	left: 50px;
 	top: 30px;
+	left: 0px;
 }
-#header-our-brand{
+
+
+
+section#cont{
+	position: relative;
+	display: grid;
+	width: 1152px;
+	height: 800px;
+	margin: 0 auto;
+}
+.contact{
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+}
+#products{
 	position: absolute;
-	width: 368px;
-height: 97px;
-left: 472px;
-top: 5px;
-white-space: pre;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 83px;
-line-height: 97px;
-
-color: #000000;
+	left:100px;
+	top: 80px;
+	white-space: pre;
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
 }
-#text-our-brand{
+section#cont .fotocontact1{
 	position: absolute;
-	width: 456px;
-height: 165px;
-left: 580px;
-top: 150px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 126.19%;
-/* or 18px */
-
-letter-spacing: 0.06em;
-
-color: #000000;
-
+	top: 50px;
+	left: 100px;
 }
-#fashion-our-brand{
+section#cont .fotocontact2{
 	position: absolute;
-	width: 474px;
-height: 462px;
-left: 294px;
-top: 230px;
-z-index: -1;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 66px;
-
-color: rgba(180, 180, 180, 0.46);
-
+	top: 50px;
+	left: 530px;
 }
-#video-our-brand{
+
+
+#nrc{
 	position: absolute;
-width: 216px;
-height: 100px;
-right: 50px;
-top: 450px;
+	left: 0px;
+	top: 80px;
+	white-space: pre;
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+	width: 100%;
 
 }
-#instagram-our-brand{
+section#cont .fotocontact3{
+	position: absolute;
+	top: 50px;
+	left: 130px;
+}
+#info{
+	position: absolute;
+	left: 740px;
+	top: 80px;
+	white-space: pre;	
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+
+}
+section#cont .fotocontact4{
+	position: absolute;
+	top: 50px;
+	left: 90px;
+}
+#orders{
+	position: absolute;
+	left: 100px;
+	top: 410px;
+	white-space: pre;
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+}
+section#cont .fotocontact5{
 position: absolute;
-right: 280px;
-top: 480px;
+top: 25px;
+left:130px;
 }
-#facebook-our-brand{
-position: absolute;
-right: 280px;
-top:510px;
-}
-#watch-our-brand{
+#locator{
 	position: absolute;
-	width: 110px;
-height: 23px;
-right: 140px;
-top: 400px;
-white-space: pre;
-font-family: Roboto;
+	left: 400px;
+	top: 410px;
+	white-space: pre;
+		font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+}
+
+section#model{
+	position: relative;
+	height: 600px;
+	
+}
+#titlimodle{
+	position: absolute;
+width: 226px;
+height: 88px;
+left: 470px;
+top: 0px;
+font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 23px;
+font-size: 72px;
+line-height: 88px;
 color: #000000;
+}
+#foto1{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 10px;
+top: 200px;
+}
+#foto2{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 296px;
+top: 200px;
+}
+#foto3{
+position: absolute;
+width: 263px;
+height: 315px;
+left: 582px;
+top: 200px;
+}
+#foto4{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 868px;
+top: 200px;
 }
 section{
 	display: grid;
-	
-	width: 1152px;
-	height: 600px;
-	margin: 0 auto;
-}
 
-footer{
-	display: grid;
-	
 	width: 1152px;
-	height: 400px;
+	height: 800px;
 	margin: 0 auto;
 }
 footer{
@@ -344,7 +261,7 @@ footer#footer1#colum1{
 }
 #colum1 hr{
 	position: relative;
-	left: -67px;
+	left: -52px;
 	background: #FFFFFF;
 	height: 7px;
 	width: 250px;
@@ -396,7 +313,7 @@ footer li a{
 }
 #colum2 hr{
 position: relative;
-	left: -70px;
+	left: -53px;
 	background: #FFFFFF;
 	height: 7px;
 	width: 250px;
@@ -438,7 +355,7 @@ position: relative;
 }
 #colum3 hr{
 	position: relative;
-	left: 6px;
+	left: -6px;
 	background: #FFFFFF;
 	height: 7px;
 	width: 250px;
@@ -485,6 +402,37 @@ position: relative;
 	top: 278px;
 	letter-spacing: 2px;
 	line-height: 2em;
+}
+
+
+
+
+
+* {box-sizing: border-box;}
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #393838;
+  background:  rgba(234, 228, 228, 0.2);;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus{
+  width: 300px;
+}
+
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
 }
 
 
